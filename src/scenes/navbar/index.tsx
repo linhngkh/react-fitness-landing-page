@@ -47,7 +47,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                   <Link
-                    page="Contact us"
+                    page="Contact Us"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
@@ -73,13 +73,15 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
 
       {/* mobile menu modal */}
       {!isAboveMediumScreens && isMenuToggled && (
-        <div className="fixed bottom-0 right-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl">
+        <div className="fixed bottom-0 right-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl md:top-16 md:ml-40 md:justify-end">
           {/* close icon */}
           <div className="flex justify-end p-12">
             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
               <XMarkIcon className="h-6 w-6 text-gray-400" />
             </button>
           </div>
+          
+          {/* menu items */}
           <div className="ml-[33%] flex flex-col gap-10 text-2xl">
             <Link
               page="Home"
@@ -97,7 +99,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="Contact us"
+              page="Contact Us"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
