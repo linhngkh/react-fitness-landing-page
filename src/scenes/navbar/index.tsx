@@ -29,7 +29,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
             <img src={Logo} alt="logo" />
             {/* right side */}
             {isAboveMediumScreens ? (
-              <div className={`${flexBetween}w-full`}>
+              <div className={`${flexBetween} w-full`}>
                 <div className={`${flexBetween} gap-8 text-sm`}>
                   <Link
                     page="Home"
