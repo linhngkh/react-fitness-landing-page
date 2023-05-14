@@ -52,6 +52,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                 </div>
+
                 <div className={`${flexBetween} gap-8`}>
                   <p>Sign In</p>
                   <ActionButton setSelectedPage={setSelectedPage}>
@@ -64,7 +65,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
                 className="rounded-full bg-secondary-500 p-2"
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               >
-                <Bars3Icon className="h-6 w-5 text-white" />
+                <Bars3Icon className="h-6 w-6 text-white" />
               </button>
             )}
           </div>
@@ -80,7 +81,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
               <XMarkIcon className="h-6 w-6 text-gray-400" />
             </button>
           </div>
-          
+
           {/* menu items */}
           <div className="ml-[33%] flex flex-col gap-10 text-2xl">
             <Link
