@@ -1,5 +1,12 @@
 ### Personal Project Made with React to learn Typescript and react-hook-form
 
+#### Front End
+* React.js / TypeScript
+* TailwindCSS
+* Framer motion
+* React-hook-from
+
+
 #### What I have learnt through coding this project is: 
 * A new way of building navigation bar, that wisely cover responsive for web and mobile design
 * Type or Interface are does not matter, what matter is using it suitable in project
