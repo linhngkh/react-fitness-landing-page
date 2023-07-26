@@ -16,3 +16,6 @@
 ) type allow us to define a set of named constants 
 * Create re-usable components for other pages
 * A new style in writing code of TailwindCSS, making it neatly and write sudo class for it.
+
+##### License
+Images is followed by Creative Commons (CC)
