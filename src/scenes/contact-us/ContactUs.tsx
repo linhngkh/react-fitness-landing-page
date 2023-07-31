@@ -50,6 +50,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
           </p>
         </motion.div>
+
         {/* form and image
          */}
         <div className="mt-10 justify-between gap-8 md:flex">
