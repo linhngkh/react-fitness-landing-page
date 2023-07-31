@@ -4,7 +4,7 @@ import { SelectedPage } from "./shared/types";
 import Home from "./scenes/home";
 import Benefit from "@/scenes/benefits";
 import OurClasses from "./scenes/ourClasses/OurClasses";
-import ContactUs from "./scenes/contactus/ContactUs";
+import ContactUs from "./scenes/contact-us/ContactUs";
 import Footer from "./scenes/footer";
 
 function App() {
