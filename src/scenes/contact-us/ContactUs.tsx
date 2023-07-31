@@ -134,7 +134,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             className="relative mt-16 basis-2/5 md:mt-0"
           >
             <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
-              {" "}
               <img
                 src={ContactUsPageGraphic}
                 alt="contact-us"

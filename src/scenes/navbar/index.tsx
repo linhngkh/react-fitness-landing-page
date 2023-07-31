@@ -1,5 +1,5 @@
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/20/solid";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/elite.png";
 import Link from "./Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
@@ -26,7 +26,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* left side */}
-            <img src={Logo} alt="logo" />
+            <img src={Logo} alt="logo" className="w-[150px]" />
             {/* right side */}
             {isAboveMediumScreens ? (
               <div className={`${flexBetween} w-full`}>
