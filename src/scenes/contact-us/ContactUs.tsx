@@ -2,7 +2,7 @@ import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
 import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
-import Htext from "@/shared/Htex";
+import HeaderText from "@/shared/HeaderText";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -40,9 +40,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           }}
           className="md:w-3/5"
         >
-          <Htext>
+          <HeaderText>
             <span className="text-primary-500">JOIN NOW </span>TO GET IN SHAPE
-          </Htext>
+          </HeaderText>
           <p className="my-5">
             {" "}
             Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl

@@ -5,7 +5,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { SelectedPage, BenefitType } from "@/shared/types";
 import { motion } from "framer-motion";
-import Htext from "@/shared/Htex";
+import HeaderText from "@/shared/HeaderText";
 import Benefit from "./Benefit";
 import ActionButton from "@/shared/ActionButton";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
@@ -60,7 +60,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           }}
           className="md:my-5 md:w-3/5"
         >
-          <Htext>MORE THAN JUST GYM.</Htext>
+          <HeaderText>MORE THAN JUST GYM.</HeaderText>
           <p className="my-5 text-sm">
             We provide world class fitness equipment, trainers and classes to
             get you to your ultimate fitness goals with ease. We provide true
@@ -108,10 +108,10 @@ const Benefits = ({ setSelectedPage }: Props) => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
-                  <Htext>
+                  <HeaderText>
                     MILLIONS OF HAPPY MEMBERS GETTING
                     <span className="text-primary-500"> FIT.</span>
-                  </Htext>
+                  </HeaderText>
                 </motion.div>
               </div>
             </div>

@@ -6,7 +6,7 @@ import image4 from "@/assets/image4.png";
 import image5 from "@/assets/image5.png";
 import image6 from "@/assets/image6.png";
 import { motion } from "framer-motion";
-import Htext from "@/shared/Htex";
+import HeaderText from "@/shared/HeaderText";
 import Class from "./Class";
 
 const classes: Array<ClassType> = [
@@ -67,7 +67,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           className="mx-auto w-5/6"
         >
           <div className="md:w-3/5">
-            <Htext>OUR CLASSES</Htext>
+            <HeaderText>OUR CLASSES</HeaderText>
             <p className="py-5 ">
               Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
               tellus quam porttitor. Mauris velit euismod elementum arcu neque
