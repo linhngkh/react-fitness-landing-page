@@ -78,9 +78,9 @@ const OurClasses = ({ setSelectedPage }: Props) => {
         </motion.div>
         <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
           <ul className="w-[2800px] whitespace-nowrap">
-            {classes.map((item: ClassType, _index) => (
+            {classes.map((item: ClassType) => (
               <Class
-                key={`${item.name}-${_index}}`}
+                key={`${item.name}-${item.image}`}
                 name={item.name}
                 description={item.description}
                 image={item.image}
